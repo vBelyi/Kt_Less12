@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_gravity="top"
+        android:layout_margin="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Кому">
+    </EditText>
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_gravity="top"
+        android:layout_margin="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Текст повідомлення">
+    </EditText>
+
+    <Button
+        android:id="@+id/sendButton"
+        android:text="Відправити"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
